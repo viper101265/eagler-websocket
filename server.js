@@ -1,8 +1,8 @@
 const WebSocket = require("ws");
 const net = require("net");
 
-const MC_HOST = "boblaniersmp.aternos.me"; // your Aternos server
-const MC_PORT = 25565;
+const MC_HOST = "calandralark.aternos.host"; // your Aternos server
+const MC_PORT = 49164;
 
 const wss = new WebSocket.Server({ port: process.env.PORT || 8080 });
 
